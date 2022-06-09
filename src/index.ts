@@ -1,8 +1,11 @@
 // Import dependencies
 import express from 'express'
+import config from './config/default'
 
 // Create variables
 const app = express()
+const port = config.port as number
+const host = config.host as string
 
 // Define routes
 app.get('/', (req, res) => {
@@ -10,6 +13,6 @@ app.get('/', (req, res) => {
 })
 
 // Start Server
-app.listen(8080, () => {
-    console.log('The application is listening on port 8080!')
+app.listen(port, host, () => {
+    console.log(`The application is listening at http://${host}:${port}`)
 })
