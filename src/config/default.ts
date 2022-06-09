@@ -1,4 +1,5 @@
 export default {
     port: 8080,
-    host: 'localhost'
+    host: 'localhost',
+    prefix: '/api/v1'
 }
