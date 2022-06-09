@@ -14,9 +14,8 @@
   },
   "scripts": {
     "test": "echo \"Hello Micro Server 2023 TEST\" && exit 1",
-    "build": "npx tsc --project ./",
-    "start": "node ./src/index.js",
-    "prod": "node ./docs/nodejs-test.js && exit 1"
+    "start": "nodemon --config nodemon.json src/index.ts",
+    "build": "npx tsc --project ./"
   },
   "repository": {
     "type": "git",

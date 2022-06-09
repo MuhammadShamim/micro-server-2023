@@ -25,9 +25,14 @@ Running the above command creates the tsconfig.json file where we can customize 
 * rootDir: specifies where the TypeScript files are located.
 * strict: enabled by default, this toggles strict type-checking options.
 * esModuleInterop: this option is true by default; it controls interoperability between CommonJS and ES modules. It does this by creating namespace objects for all imports.
-### Create an Express server
-npx tsc --project ./
-created index.ts file running on port 8080
+## Nodemon
+
+## CORS
+## CORS
+## CORS
+## CORS
+## CORS
+## CORS
 ## Build
 ```bash
 npm run build
